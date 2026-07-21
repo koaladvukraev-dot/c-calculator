@@ -1,5 +1,13 @@
 #include <stdio.h>
-//
+//функция защиты
+void clearInput(void)
+{
+    int symbol;
+    while ((symbol = getchar()) != '\n' && symbol != EOF)
+    {
+    }
+}
+//главная функция
 int main() {
   //первый бесконечный цикл
   while (1) {
