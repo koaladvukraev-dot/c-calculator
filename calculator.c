@@ -17,6 +17,7 @@ int main() {
     //первая проверка если значение программа смогла прочитать
     if (scanf("%d", &firstNumber) != 1) {
       printf("Ошибка\n");
+      clearInput();
       continue;
     } else {
       printf("Операция прошла успешно\n");
@@ -25,6 +26,7 @@ int main() {
     //вторая проверка если значение программа смогла прочитать
     if (scanf("%d", &secondNumber) != 1) {
       printf("Ошибка\n");
+      clearInput();
       continue;
     } else {
       printf("Операция прошла успешно\n");
